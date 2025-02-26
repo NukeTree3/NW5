@@ -2,6 +2,6 @@ package com.nuketree3.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Table table = new Table(5,3);
     }
 }

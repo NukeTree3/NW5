@@ -1,4 +1,8 @@
 package com.nuketree3.example;
 
-public class Fork {
+import lombok.Data;
+
+@Data
+public class Fork extends EntityInTable {
+    private boolean isUse = false;
 }
